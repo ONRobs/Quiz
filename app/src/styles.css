@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(196, 240, 159);
+  font-family: sans-serif;
+}
+
+.background {
+  background-color: white;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(199, 199, 199);
+  display: flex;
+  justify-content: center;
+  margin: 36px 26px;
+  padding: 12px 20px;
+}
+
+@media (min-width: 800px) {
+  .background {
+    max-width: 60%;
+    margin: 36px auto;
+  }
+}
+form {
+  display: block;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 8px;
+}
+
+.field {
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(206, 206, 206);
+  border-width: 2px;
+  padding: 8px 16px;
+  margin: 16px;
+}
+
+input[type=text] {
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 10px;
+  height: 24px;
+  padding: 4px 8px;
+}
+
+.button_field {
+  margin: 16px;
+  display: flex;
+  justify-content: right;
+}
+
+button {
+  background-color: white;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 20px;
+  height: 36px;
+  width: 64px;
+}/*# sourceMappingURL=styles.css.map */
